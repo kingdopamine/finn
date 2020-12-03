@@ -22,7 +22,7 @@ class Contact extends React.Component {
                 </div>
 
                 <div id="contact">
-                tbc
+                finncloughholland@gmail.com
                 </div>
 
 

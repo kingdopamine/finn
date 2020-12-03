@@ -6,6 +6,10 @@
     text-align: left;
 }
 
+#email{
+    color:blue
+}
+
 @media (max-width:600px){
     #contact{
         width: 75vw

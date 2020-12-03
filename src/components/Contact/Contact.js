@@ -22,7 +22,7 @@ class Contact extends React.Component {
                 </div>
 
                 <div id="contact">
-                finncloughholland@gmail.com
+                <a href="mailto:finncloughholland@gmail.com" id="email">finncloughholland@gmail.com</a>
                 </div>
 
 

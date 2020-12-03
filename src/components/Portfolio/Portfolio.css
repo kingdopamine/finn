@@ -4,9 +4,19 @@ h1{
     font-size: large;
 }
 
+ul{
+    list-style-type:none;
+    position: absolute;
+    font-family: Gill Sans;
+    font-weight: 100;
+   
+    
+}
+
 li{
     text-align: left;
     cursor: pointer;
+    
 }
 
 li:hover{
@@ -52,12 +62,28 @@ a:hover{
     width:50%
 }
 
-ul{
-    list-style-type:none;
-    position: absolute;
-    font-family: Gill Sans;
-    font-weight: 100;
-    
-    
-}
 
+
+@media (max-width:600px){
+
+    ul{
+        margin-top: 0;
+        margin-left: 45vw;
+        transform: translate(-50%);
+    }
+    
+    li{
+        text-align: center;
+        display: inline;
+        transform: translate(-50%);
+        padding: 10vw;
+    }
+
+    .pieceBio{
+        max-width: 75vw;
+        text-align: left;
+        font-style: italic;
+        margin-left: 50px;
+    }
+
+}
